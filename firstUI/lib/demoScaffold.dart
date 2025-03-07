@@ -18,15 +18,25 @@ class DemoScaffold extends StatelessWidget{
       ),
       body:
         SafeArea(
-          child: Container(
-            alignment: Alignment.topLeft,
-            color: Colors.orange,
-            padding: EdgeInsets.symmetric(
-              vertical: 10,
-              horizontal: 30,
-            ),
-            child: Text('Container'),
-          )
+          // child: Center(
+            child: Container(
+              alignment: Alignment.center,
+              color: Colors.black,
+              padding: EdgeInsets.symmetric(
+                vertical: 10,
+                horizontal: 30,
+              ),
+              child: Text(
+                'Container',
+                style: TextStyle(
+                  fontSize: 24,
+                  fontFamily: 'Roboto',
+                  fontWeight: FontWeight.bold,
+                  color: Colors.red,
+                ),
+              ),
+            )
+          // )
 
           // child: Column(
           //   mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -78,16 +88,16 @@ class DemoScaffold extends StatelessWidget{
       ),
       bottomNavigationBar: BottomNavigationBar(items: [
         BottomNavigationBarItem(
-          icon: Icon(Icons.square),
-          label: 'Multi-task',
-        ),
-        BottomNavigationBarItem(
           icon: Icon(Icons.home),
           label: 'Home',
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.arrow_back),
-          label: 'Back',
+          icon: Icon(Icons.search),
+          label: 'Search',
+        ),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.settings),
+          label: 'Setting',
         )
       ]),
       floatingActionButton: Container(
