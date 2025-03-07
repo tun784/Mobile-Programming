@@ -9,7 +9,8 @@ class DemoApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: CalculatorApp(),
+      // home: CalculatorApp(),
+      home: DemoScaffold(),
     );
   }
 }
