@@ -1,0 +1,65 @@
+name: classroom
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_auth: ^4.17.4
+  # Core dependencies
+  provider: ^6.1.0
+  uuid: ^4.0.0
+
+  # Firebase dependencies
+  file_picker: ^8.0.7
+  firebase_storage: ^11.6.6
+  cloud_firestore: ^4.17.5
+  firebase_core: ^2.32.0
+  firebase_app_check: ^0.2.0+1
+
+  # Icons
+  font_awesome_flutter: ^10.7.0
+  cupertino_icons: ^1.0.8
+  crypto: ^3.0.5
+
+  # Preferences
+  shared_preferences: ^2.3.0
+
+  # Extras
+  smooth_page_indicator: ^1.1.0
+  floating_action_bubble: ^1.1.4
+  flutter_colorpicker: ^1.0.3
+  freezed_annotation: ^2.4.4
+  json_annotation: ^4.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.9
+  freezed: ^2.5.7
+  json_serializable: ^6.8.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: PublicSans
+      fonts:
+        - asset: assets/fonts/PublicSans_Regular.otf
+        - asset: assets/fonts/PublicSans_ExtraBold.otf
+          weight: 700
+        - asset: assets/fonts/PublicSans_Bold.otf
+          weight: 500
