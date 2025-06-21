@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "581206120285",
+    "project_id": "homework-f64e4",
+    "storage_bucket": "homework-f64e4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581206120285:android:cbe96602298105b213fab4",
+        "android_client_info": {
+          "package_name": "com.example.classroom_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581206120285-cf8le67tip9p7qliqi6kli3c845sa71l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.classroom_app",
+            "certificate_hash": "85d04ffe494a144b126a868dfc0eb7658467d48e"
+          }
+        },
+        {
+          "client_id": "581206120285-fc6k0a7uubf8p7d126a6vhjmkpi24vqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdO1aLr31IttkiauHJkh0pAJR30n_z_Ig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581206120285-fc6k0a7uubf8p7d126a6vhjmkpi24vqs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "581206120285-ho2dkre16isj1jti1tljfd1oervit58v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterClassroomApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581206120285:android:76faed659be4e14613fab4",
+        "android_client_info": {
+          "package_name": "com.example.flutter_classroom_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581206120285-f06rsmn5625ku1joe94ops3icgnmgm51.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutter_classroom_app",
+            "certificate_hash": "280fa6af0195e606e7572dfe3d307e6f5502cb48"
+          }
+        },
+        {
+          "client_id": "581206120285-fc6k0a7uubf8p7d126a6vhjmkpi24vqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdO1aLr31IttkiauHJkh0pAJR30n_z_Ig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581206120285-fc6k0a7uubf8p7d126a6vhjmkpi24vqs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "581206120285-ho2dkre16isj1jti1tljfd1oervit58v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterClassroomApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
